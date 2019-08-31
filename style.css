@@ -13,6 +13,112 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others. 
 */
 
+/* Fonts */
+
+@font-face {
+  font-family: "calluna";
+  src: url("https://use.typekit.net/af/32f92a/000000000000000000014869/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/32f92a/000000000000000000014869/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/32f92a/000000000000000000014869/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "calluna";
+  src: url("https://use.typekit.net/af/fb816c/00000000000000000001486a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/fb816c/00000000000000000001486a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/fb816c/00000000000000000001486a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "calluna";
+  src: url("https://use.typekit.net/af/9e56a2/00000000000000000001486d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/9e56a2/00000000000000000001486d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/9e56a2/00000000000000000001486d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "calluna";
+  src: url("https://use.typekit.net/af/c0faa1/00000000000000000001486e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/c0faa1/00000000000000000001486e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/c0faa1/00000000000000000001486e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "calluna-sans";
+  src: url("https://use.typekit.net/af/3f38e7/00000000000000000000ebe8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/3f38e7/00000000000000000000ebe8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/3f38e7/00000000000000000000ebe8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "calluna-sans";
+  src: url("https://use.typekit.net/af/1e5026/00000000000000000000ebe9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/1e5026/00000000000000000000ebe9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/1e5026/00000000000000000000ebe9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "calluna-sans";
+  src: url("https://use.typekit.net/af/0b9b79/00000000000000000000ebeb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/0b9b79/00000000000000000000ebeb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/0b9b79/00000000000000000000ebeb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "calluna-sans";
+  src: url("https://use.typekit.net/af/c820b9/00000000000000000000ebf3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/c820b9/00000000000000000000ebf3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/c820b9/00000000000000000000ebf3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+}
+
 /* Reset */
 
 html,
@@ -122,6 +228,7 @@ section {
 }
 body {
   line-height: 1;
+  font-family: "calluna";
 }
 ol,
 ul {
@@ -141,4 +248,217 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+#footer .blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 45px 410px 35px 330px;
+  height: 300px;
+  border-top: 7px solid #d4c187;
+  background-color: #002a5c;
+  color: #d4c187;
+}
+
+#footer .white {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: -188px;
+}
+
+.white .left {
+  padding-bottom: 275px;
+  margin-right: 130px;
+}
+
+.left h2 {
+  color: #002a5c;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.left h2::after {
+  content: "";
+  display: inline-block;
+  border-bottom: 1px solid #002a5c;
+  width: 19px;
+  margin-left: 25px;
+}
+
+.left p {
+  color: #585858;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+p.number {
+  font-size: 20px;
+}
+
+p.hours {
+  margin-top: 55px;
+}
+
+#footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-menu,
+.social-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu li {
+  position: relative;
+  margin-right: 30px;
+}
+
+.social-menu {
+  margin-top: 20px;
+}
+
+.footer-menu li > ul {
+  display: none;
+  position: absolute;
+}
+
+.footer-menu li:hover > ul {
+  display: block;
+}
+
+.footer-contact {
+  background-color: #002a5c;
+  padding: 38px 33px;
+}
+
+.footer-contact .nf-before-form-content,
+.footer-contact .nf-after-form-content {
+  display: none;
+}
+
+.footer-contact .footer-contact-input {
+  width: 450px;
+}
+
+.footer-contact .footer-contact-input input,
+.footer-contact .footer-contact-input textarea {
+  border: 2px solid white;
+  padding: 0 30px 0;
+  font-family: "calluna-sans";
+  font-size: 13px;
+}
+
+.footer-contact .footer-contact-input input::placeholder,
+.footer-contact .footer-contact-input textarea::placeholder {
+  text-transform: uppercase;
+}
+
+.footer-contact .footer-contact-input input {
+  height: 65px;
+}
+
+.footer-contact .footer-contact-input textarea {
+  height: 130px;
+  padding-top: 20px;
+}
+
+.footer-contact .footer-contact-input input:focus,
+.footer-contact .footer-contact-input textarea:focus {
+  border-color: #d4c187;
+}
+
+.footer-contact-input .field-wrap {
+  position: relative;
+}
+
+.footer-contact-input .nf-field-label {
+  display: none;
+  /* position: absolute;
+  text-transform: uppercase;
+  font-family: "calluna-sans";
+  font-size: 13px;
+  z-index: 1;
+  margin: 0;
+  left: 32px;
+  top: 20px;
+  color: #b5b5b5; */
+}
+
+.footer-contact-input:focus-within .nf-field-label,
+.footer-contact-input .nf-field-label {
+  color: black;
+  top: 10px;
+}
+
+.footer-contact .response-notice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.footer-contact .submit-container input.contact-button {
+  font-family: "calluna-sans";
+  font-weight: 700;
+  height: 60px;
+  width: 205px;
+  text-transform: uppercase;
+  color: #d4c187;
+  background-color: #002a5c;
+  font-size: 16px;
+  border: 2px solid #d4c187;
+}
+
+.footer-contact .submit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-contact .submit-container .nf-before-field,
+.footer-contact .submit-container .nf-after-field,
+.footer-contact .submit-container::after {
+  display: none;
+}
+
+.footer-contact .submit-container::before {
+  display: block;
+  font-size: 13px;
+  content: "Receive a reply within 24-48 hours";
+  color: white;
+  font-family: "calluna-sans";
+}
+
+.footer-contact .submit-container input.contact-button:hover {
+  background-color: #d4c187;
+  color: #002a5c;
+}
+
+.footer-contact-input .nf-error input,
+.footer-contact-input .nf-error textarea {
+  border-color: darkred;
+}
+
+.footer-contact-input .nf-after-field {
+  display: none;
+}
+
+nf-field:last-child .nf-field-container {
+  margin-bottom: 0;
 }
