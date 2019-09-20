@@ -462,3 +462,7 @@ p.hours {
 nf-field:last-child .nf-field-container {
   margin-bottom: 0;
 }
+
+.main-menu-more {
+  display: none;
+}
